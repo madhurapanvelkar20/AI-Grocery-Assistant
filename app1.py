@@ -48,7 +48,8 @@ def load_data():
             'Carbohydrates (g)': 'carbs_g',
             'Health Tags': 'health_tags',
             'Popularity Score': 'popularity_score',
-            'Weight(grams)': 'weight_grams'
+            'Weight(grams)': 'weight_grams',
+            'Barcode': 'barcode'  # Use your actual barcode column
         }
         
         # Rename columns to match expected format
@@ -57,7 +58,6 @@ def load_data():
         # Create missing required columns
         df['product_id'] = range(1, len(df) + 1)  # Generate product IDs
         df['weight_kg'] = df['weight_grams'] / 1000  # Convert grams to kg
-        df['barcode'] = df['product_id'].apply(lambda x: f"12345{str(x).zfill(8)}")  # Generate barcodes
         
         # Clean and validate data
         df = df.dropna(subset=['product_name', 'category', 'price'])
@@ -69,6 +69,18 @@ def load_data():
         df['fat_g'] = pd.to_numeric(df['fat_g'], errors='coerce').fillna(0)
         df['carbs_g'] = pd.to_numeric(df['carbs_g'], errors='coerce').fillna(0)
         df['popularity_score'] = pd.to_numeric(df['popularity_score'], errors='coerce').fillna(0)
+        
+        # Clean barcodes - ensure they are strings and handle missing values
+        df['barcode'] = df['barcode'].astype(str).str.strip()
+        df['barcode'] = df['barcode'].replace(['nan', 'NaN', ''], pd.NA)
+        
+        # For products without barcodes, generate them
+        missing_barcode_mask = df['barcode'].isna()
+        if missing_barcode_mask.any():
+            df.loc[missing_barcode_mask, 'barcode'] = df.loc[missing_barcode_mask, 'product_id'].apply(
+                lambda x: f"1234{str(x).zfill(9)}"
+            )
+        
         
         return df
     except FileNotFoundError:
@@ -85,7 +97,7 @@ def load_offers():
         offers_df = pd.read_csv("product_offers (1).csv")
         
         # Debug: Show what columns we actually have
-       
+        
         
         # Map your actual columns to expected format
         column_mapping = {
@@ -119,10 +131,10 @@ def load_offers():
             # Clean up the dataframe
             offers_df = offers_df[['product_id', 'product_name', 'original_price', 'discounted_price', 'discount_percentage', 'offer_ends_on']]
             
-            st.success(f" Exciting Offers available")
+            st.success(f"Exciting Offers available")
             return offers_df
         else:
-            st.warning("No Offers available")
+            st.warning("Main dataset not loaded, cannot process offers")
             return create_sample_offers()
             
     except FileNotFoundError:
@@ -739,7 +751,7 @@ with tab2:
         if st.button("🔍 Scan Barcode", type="primary"):
             if barcode_input:
                 if validate_barcode(barcode_input):
-                    with st.spinner("Looking up product in database..."):
+                    with st.spinner("Finding product ..."):
                         product_info = simulate_barcode_scan(barcode_input)
                         
                         if product_info['found']:
@@ -760,7 +772,7 @@ with tab2:
                             add_notification(f"Scanned {product_info['name']}", "success")
                             st.rerun()
                         else:
-                            st.error("Product not found in database.")
+                            st.error("Product not found.")
                             st.info("Try scanning a different barcode or check our product catalog.")
                 else:
                     st.error("Invalid barcode format.")
@@ -910,12 +922,15 @@ with tab3:
         total_price = sum([item.get('total_price', 0) for item in st.session_state.shopping_list])
         
         # Summary
-        col1, col2, col3 = st.columns(3)
+        col1, col2, col3, col4 = st.columns(4)
         with col1:
             st.metric("Total Items", total_items)
         with col2:
             st.metric("Total Price", f"₹{total_price:.2f}")
         with col3:
+            total_weight_kg = sum([item.get('total_weight', 0) for item in st.session_state.shopping_list])
+            st.metric("Total Weight", f"{total_weight_kg:.2f} kg")
+        with col4:
             avg_health = sum([item.get('health_score', 50) for item in st.session_state.shopping_list]) / len(st.session_state.shopping_list)
             st.metric("Avg Health Score", f"{avg_health:.1f}%")
         
