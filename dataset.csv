@@ -1,0 +1,100 @@
+Product Name,Brand,Category,Price (₹),Ingredients,Calories,Protein (g),Fat (g),Carbohydrates (g),Health Tags,Popularity Score,Weight(grams),Barcode
+Spinach,SuperMart,Vegetables,22.3,Fresh spinach leaves,407,8.8,17.4,27.9,"Low GI, Iron Rich, Low Calorie",3.6,50,1234500001
+Broccoli,NutriGo,Vegetables,485.21,Broccoli florets,227,16.3,21.2,45.2,"Low GI, Fiber Rich, Antioxidants",1.4,200,1234500002
+Carrot,GreenFresh,Vegetables,77.5,Whole carrots,152,15.1,3.9,58.5,"Moderate GI, Vitamin A Rich",3,50,1234500003
+Tomato,ValueChoice,Vegetables,256.07,Fresh tomato,543,13.4,20.3,57.7,"Low GI, Vitamin C Rich",3.2,35,1234500004
+Cabbage,GreenFresh,Vegetables,472.07,Shredded cabbage,493,13.2,5.3,55.4,"Low GI, Detox Support, High Fiber",4.9,100,1234500005
+Beetroot,TastyBites,Vegetables,171.11,Whole beetroot,322,7.1,13.9,9.4,"Moderate GI, Iron Rich",1.8,86,1234500006
+Sweet Potato,QuickPick,Vegetables,84.01,Sweet potato tuber,456,10,1.4,28.6,"Moderate GI, Fiber Rich",5,78,1234500007
+Cucumber,HealthyLife,Vegetables,444.93,Whole cucumber,571,10.3,18.7,66.8,"Low GI, Hydrating",2.4,45,1234500008
+Bell Pepper,SuperMart,Vegetables,275.13,Fresh capsicum,591,7.3,14.5,71,"Low GI, Vitamin C, Antioxidants",3.5,87,1234500009
+Zucchini,QuickPick,Vegetables,185.47,Whole zucchini,438,15.2,9.4,10.5,"Low GI, Low Calorie, Hydrating",2.7,65,1234500010
+Green Peas,TastyBites,Vegetables,301.09,Fresh green peas,255,2.1,9.6,33.4,"Moderate GI, Protein Rich",3.9,100,1234500011
+Pumpkin,GreenFresh,Vegetables,398.72,Fresh pumpkin,600,14.2,6.1,50.9,"Moderate GI, Vitamin A",3.9,100,1234500012
+Brinjal,HealthyLife,Vegetables,329.86,Fresh brinjal,248,9.4,18.2,6.4,"Low GI, Fiber Rich",3,45,1234500013
+Onion,ValueChoice,Vegetables,185.68,Fresh onion,340,18.7,7.5,45.8,"Low GI, Flavonoid Rich",4.7,250,1234500014
+Garlic,QuickPick,Vegetables,240.09,Whole garlic cloves,510,9.8,0.6,62.5,"Low GI, Antibacterial",2.5,100,1234500015
+Apple,ValueChoice,Fruits,236.91,Whole apple,600,19,7.2,76.3,"Low GI, Fiber Rich",2.3,50,1234500016
+Banana,GreenFresh,Fruits,443.99,Whole banana,522,13.7,19.8,58.9,"High GI, Potassium Rich",4.5,345,1234500017
+Mango,NutriGo,Fruits,339.37,Ripe mango,301,17.4,3.2,26.4,"High GI, Vitamin A & C",1.1,155,1234500018
+Pomegranate,NutriGo,Fruits,173.96,Whole arils,497,5.4,18.7,52.9,"Low GI, Antioxidants",1.6,100,1234500019
+Grapes,QuickPick,Fruits,435.66,Whole grapes,502,2.8,10.2,67.1,"Moderate GI, Antioxidants",4.2,250,1234500020
+Papaya,TastyBites,Fruits,452.08,Papaya flesh,508,8.8,6.9,51,"Low GI, Digestive Enzymes",4.5,250,1234500021
+Pineapple,ValueChoice,Fruits,25.6,Pineapple slices,462,16.8,16.5,31.4,"High GI, Bromelain",1.4,250,1234500022
+Guava,NutriGo,Fruits,204.24,Whole guava,354,14.8,7.4,74,"Low GI, High Fiber",3.7,250,1234500023
+Chikoo,QuickPick,Fruits,105.63,Whole chikoo,96,13.3,0.6,17.1,"High GI, Natural Sugar",2.1,250,1234500024
+Avocado,TastyBites,Fruits,45.67,Whole avocado,510,8.4,2.7,46.9,"Low GI, Healthy Fats",3.9,250,1234500025
+Watermelon,HealthyLife,Fruits,371.94,Watermelon flesh,533,19.6,7,39.1,"High GI, Hydrating",3.1,250,1234500026
+Orange,SuperMart,Fruits,96.89,Peeled orange,458,10.3,10.1,16.7,"Low GI, Vitamin C Rich",4.2,250,1234500027
+Kiwi,QuickPick,Fruits,197.7,Whole kiwi,238,13.4,7.7,25,"Low GI, Vitamin C Rich",3.8,250,1234500028
+Dates,GreenFresh,Fruits,44.92,Dried dates,121,7.4,9.2,23.3,"High GI, Iron Rich",3.6,250,1234500029
+Raisins,SuperMart,Fruits,46.57,Dried grapes,160,2.7,20.2,13.9,"High GI, Natural Sugar",2.6,250,1234500030
+Brown Rice,FarmPure,Grains,494.33,Whole grain rice,292,15.7,12.9,28.2,"Low GI, High Fiber",2.8,500,1234500031
+White Rice,HealthyLife,Grains,139.48,Polished rice,598,8.6,12.6,27.7,"High GI, Low Fiber",1.5,500,1234500032
+Whole Wheat Flour,SuperMart,Grains,13.49,Ground whole wheat,584,12.1,19.9,58.9,"Moderate GI, High Fiber",3.9,500,1234500033
+Maida,ValueChoice,Grains,280.15,Refined flour,141,13.1,1.6,41.4,"High GI, Low Nutrients",4.8,500,1234500034
+Oats,QuickPick,Grains,59.93,Rolled oats,160,17.2,13.5,37,"Low GI, Heart Healthy",2.5,500,1234500035
+Semolina (Suji),SuperMart,Grains,333.51,Refined wheat,496,2.1,16.6,75.3,"High GI, Low Fiber",1.9,500,1234500036
+Jowar,HealthyLife,Grains,154.18,Whole jowar,221,14.8,12.9,41.1,"Low GI, Gluten-Free",4.8,500,1234500037
+Bajra,FarmPure,Grains,184.9,Whole bajra,202,1.3,20.2,59.8,"Low GI, Energy Dense",1.9,500,1234500038
+Barley,NutriGo,Grains,89.19,Whole barley grains,447,9.7,20.7,65.7,"Low GI, Heart Healthy",1.5,500,1234500039
+Quinoa,NutriGo,Grains,13.52,Whole quinoa,421,13.7,17.4,7.4,"Low GI, High Protein",3,500,1234500040
+Millet,HealthyLife,Grains,42.33,Whole millet,315,6.7,4.7,70.7,"Low GI, Gluten-Free",1.7,500,1234500041
+Cornflakes,SuperMart,Cereals,272.46,"Corn, Sugar",68,17,21.1,12.4,"High GI, High Sugar",3,500,1234500042
+Poha,HealthyLife,Grains,277.92,Flattened rice,303,1.2,0.8,43.2,"Moderate GI, Light Digestive",2.1,500,1234500043
+Dalia,HealthyLife,Grains,95.18,Cracked wheat,105,3.3,20.2,22.1,"Low GI, High Fiber",1.9,500,1234500044
+Puffed Rice,FarmPure,Grains,191.82,Air-puffed rice,349,19.9,22.3,46.7,"High GI, Light Calorie",4.3,500,1234500045
+Milk (Toned),HealthyLife,Dairy,296.38,Pasteurized milk,262,18.7,16,60.4,"Low GI, Calcium Rich",2.1,190,1234500046
+Paneer,QuickPick,Dairy,197.53,Curdled milk,555,13.4,5.7,49.6,"Low GI, High Protein",2,250,1234500047
+Curd,TastyBites,Dairy,469.69,Fermented milk,232,19.9,20.3,22.3,"Low GI, Probiotic",3.9,200,1234500048
+Greek Yogurt,QuickPick,Dairy,472.84,Strained curd,68,13.9,16.3,75,"Low GI, High Protein",3.9,150,1234500049
+Butter,GreenFresh,Dairy,246.82,Milk fat,281,9.6,12.1,74.1,"High Fat, Saturated Fat",4.3,250,1234500050
+Ghee,ValueChoice,Dairy,44.7,Clarified butter,201,18.6,4.6,19,"High Fat, Digestive Aid",2.9,250,1234500051
+Cheese,GreenFresh,Dairy,42.76,Processed cheese,189,19.1,1.4,70.2,"High Fat, High Sodium",4.7,100,1234500052
+Eggs,TastyBites,Protein,59.08,Whole eggs,433,9.4,17.4,41.8,"Low GI, High Protein",3.1,150,1234500053
+Tofu,NutriGo,Protein,177.43,Soybean curd,600,2.4,21.7,60.9,"Low GI, Plant Protein",1.7,200,1234500054
+Condensed Milk,NutriGo,Dairy,422.18,"Milk, Sugar",152,8.5,1.5,50.1,"High Sugar, High Calorie",2.8,200,1234500055
+Flavored Yogurt,SuperMart,Dairy,391.34,"Milk, Sugar",550,7.9,17.2,8.4,"Moderate GI, Added Sugar",3.6,150,1234500056
+Whey Protein,ValueChoice,Protein,37.2,Whey isolate,109,17.6,11.2,12.4,"Low GI, Muscle Recovery",2.1,250,1234500057
+Soy Milk,FarmPure,Dairy,274.41,"Soybeans, Water",82,5.3,18.5,64.2,"Low GI, Vegan Protein",3,200,1234500058
+Almond Milk,ValueChoice,Dairy,135.38,"Almonds, Water",81,12.1,8.3,72.3,"Low GI, Lactose-Free",1.5,200,1234500059
+Processed Cheese,NutriGo,Dairy,84.47,"Milk solids, Salt",229,3.1,22,56.3,"High Sodium, Saturated Fat",3.9,250,1234500060
+Instant Noodles,GreenFresh,Snacks,268.95,"Maida, Oil, Salt",371,6.2,8,5.7,"High Fat, High Sodium",3.7,80,1234500061
+Potato Chips,NutriGo,Snacks,177.04,"Potatoes, Oil, Salt",245,7.9,23.7,45.3,"High Fat, Low Nutrition",4.5,45,1234500062
+Soft Drink,GreenFresh,Beverages,59.22,"Sugar, Carbonated Water",444,7.4,6.3,73.1,"High Sugar, Empty Calories",4.9,79,1234500063
+Chocolate Bar,SuperMart,Sweets,311.79,"Cocoa, Sugar, Milk",200,6.1,17.5,72.8,"High Sugar, High Fat",4.4,56,1234500064
+Ice Cream,SuperMart,Desserts,397.6,"Milk, Sugar",585,16.9,18.7,69.7,"High Sugar, High Calorie",1.2,78,1234500065
+Cream Biscuits,GreenFresh,Snacks,368.81,"Maida, Palm Oil, Sugar",491,13.5,11.2,79.8,"High Sugar, High Fat",2.1,35,1234500066
+Burger Bun,FarmPure,Bakery,387.57,"Maida, Sugar, Yeast",295,8.7,22.4,15.2,"High GI, Low Fiber",2.8,23,1234500067
+Jam,ValueChoice,Spreads,41.88,"Fruit, Sugar, Pectin",182,4.3,12.7,22.9,"High Sugar, Preserved",4.8,100,1234500068
+Peanut Butter,GreenFresh,Spreads,473,"Peanuts, Salt",383,12.6,15.9,59.2,"Moderate GI, Healthy Fats",4.6,100,1234500069
+Energy Bar,ValueChoice,Snacks,232.31,"Nuts, Dates, Cocoa",364,7.9,2.3,43.8,"Moderate GI, High Energy",4.4,78,1234500070
+Salted Crackers,GreenFresh,Snacks,383.22,"Flour, Salt, Oil",295,17,13.4,56.2,"High Sodium, Low Nutrients",1.2,57,1234500071
+Popcorn (Salted),NutriGo,Snacks,52.97,"Corn, Oil, Salt",357,11.9,23.4,79.2,"Moderate GI, Whole Grain",3.5,45,1234500072
+French Fries,FarmPure,Frozen Foods,289.52,"Potatoes, Oil, Salt",438,1.3,10.9,17.7,"High Calorie, High Fat",1.3,89,1234500073
+Frozen Pizza,TastyBites,Frozen Foods,38.6,"Maida, Cheese, Preservatives",378,6.4,22.9,13.3,"High Fat, High Calorie",3.8,100,1234500074
+Frozen Paratha,GreenFresh,Frozen Foods,314.61,"Maida, Oil, Salt",283,18.9,22.4,7.9,"High GI, Processed",4.5,100,1234500075
+Olive Oil,TastyBites,Oils,166.35,Cold-pressed olives,415,9.1,3.8,20.8,"Low GI, Heart Healthy",1.1,100,1234500076
+Mustard Oil,GreenFresh,Oils,453.17,Mustard seed extract,185,4.8,10.3,24.3,"Low GI, Antimicrobial",2.8,100,1234500077
+Coconut Oil,GreenFresh,Oils,490.31,Coconut extract,131,11.2,17,29.6,High Saturated Fat,3.2,100,1234500078
+Rice Bran Oil,TastyBites,Oils,216.96,Rice husk extract,194,1.6,19.9,46.1,"Low GI, Antioxidant Rich",4,100,1234500079
+Palm Oil,GreenFresh,Oils,160.35,Palm fruit,90,10.2,23.3,56.6,High Saturated Fat,4.6,100,1234500080
+Salt,FarmPure,Essentials,143.15,Iodized salt,71,9.8,9.8,50.6,"Neutral GI, Use Moderately",4.7,100,1234500081
+Sugar,NutriGo,Essentials,323.13,Refined sugar,265,8.3,18.3,64.1,"High GI, High Calorie",3.8,100,1234500082
+Turmeric,QuickPick,Spices,495.02,Ground turmeric root,72,17.5,12.6,70.1,"Anti-inflammatory, Low GI",4.6,100,1234500083
+Cumin Seeds,TastyBites,Spices,146.74,Dried cumin seeds,584,13.1,16.6,78.2,"Digestive Aid, Low GI",2.8,100,1234500084
+Tomato Ketchup,TastyBites,Condiments,179.98,"Tomatoes, Sugar, Vinegar",407,15.9,13,27.7,"High Sugar, Processed",2.6,100,1234500085
+Green Tea,HealthyLife,Beverages,239.21,Dried green tea leaves,402,11.5,23.3,37.8,"Low GI, Antioxidant, Metabolism Booster",4.6,100,1234500086
+Ketchup Chips,QuickPick,Snacks,436.9,"Potato, Oil, Ketchup Flavouring",412,18.3,6.5,16.4,"High Fat, High Sodium, Artificial Flavoring",1.8,100,1234500087
+Soy Sauce,SuperMart,Condiments,37.52,"Soybeans, Salt, Preservatives",81,6.8,1.7,39.2,"High Sodium, Umami Flavor",3.1,100,1234500088
+Brown Bread,NutriGo,Bakery,13.29,"Whole wheat flour, Yeast",393,19.6,2.8,14.3,"Moderate GI, Higher Fiber than White Bread",2.6,100,1234500089
+Lassi,QuickPick,Dairy/Beverage,406.63,"Curd, Water, Sugar/Salt",351,11.6,13,26,"Moderate GI, Probiotic, May Contain Sugar",4.8,100,1234500090
+Honey,FarmPure,Condiments,421.25,Natural honey,128,15.9,6.2,51,"High GI, Antibacterial, Natural Sweetener",3,100,1234500091
+Trail Mix,TastyBites,Snacks,285,"Nuts, Seeds, Dried Fruits",528,17.4,22.7,25.8,"Moderate GI, Energy Dense, Healthy Fats",4.5,100,1234500092
+Rice Cakes,GreenFresh,Snacks,134.32,"Puffed rice, Salt",247,14.3,19.1,36.7,"High GI, Low Calorie, Low Nutrition",4.2,100,1234500093
+Multigrain Atta,ValueChoice,Grains,72.14,"Wheat, Millet, Barley",317,17.6,0.8,46.1,"Low GI, High Fiber, Heart Healthy",2.4,100,1234500094
+Buttermilk,NutriGo,Beverage,14.05,"Curd, Water, Spices",249,13.6,10.2,23.1,"Low GI, Probiotic, Cooling",2.2,100,1234500095
+Coconut Water,TastyBites,Beverage,288.33,Natural coconut water,161,5.7,20.7,9.4,"Low GI, Electrolytes, Hydrating",1.7,100,1234500096
+Chicken Nuggets,QuickPick,Frozen Foods,35.19,"Chicken, Maida, Oil",355,19.5,3.2,50.5,"High Fat, Processed, High Sodium",2.8,100,1234500097
+Vegetable Soup Mix,NutriGo,Ready-to-Eat,104.5,"Dehydrated veggies, Salt, Spices",405,3.1,8.2,62.4,"Low GI, High Sodium (Instant)",3.8,100,1234500098
+Bhel Mix,FarmPure,Snacks,151.61,"Puffed rice, Spices, Salt",76,13.2,23.4,55.1,"Moderate GI, Spicy, Low Calorie",1,100,1234500099
